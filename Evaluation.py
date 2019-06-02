@@ -58,7 +58,7 @@ class precision_recall_calculator():
             test_data_user = self.test_data[self.test_data['user_id'] == user_id]
             self.test_dict[user_id] = set(test_data_user['song'].unique() )
     
-    #Method to calculate the precision and recall measures
+    # Method to calculate the precision and recall measures
     def calculate_precision_recall(self):
         #Create cutoff list for precision and recall calculation
         cutoff_list = list(range(1,11))
