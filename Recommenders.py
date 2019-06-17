@@ -1,5 +1,5 @@
 import numpy as np
-import pandas
+import pandas as pd
 
 #Class for Popularity based Recommender System model
 class popularity_recommender_py():
